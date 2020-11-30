@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //自定义属性名,定义公共属性
+    <attr name="iNum" format="float" />
+    <attr name="iColor" format="color" />
+    <attr name="oNum" format="float" />
+    <attr name="oColor" format="color" />
+    <attr name="Inclination" format="integer"/>
+    <attr name="iTextColor" format="color" />
+    <attr name="TextSize" format="dimension" />
+    <attr name="oTextColor" format="color" />
+
+    //自定义控件的主题样式
+    <declare-styleable name="MyPre">
+        <attr name="iNum" />
+        <attr name="iColor" />
+        <attr name="oNum" />
+        <attr name="oColor" />
+        <attr name="Inclination" />
+        <attr name="iTextColor" />
+        <attr name="TextSize" />
+        <attr name="oTextColor" />
+    </declare-styleable>
+
+
+
+    //自定义控件的主题样式
+    <declare-styleable name="MyProgress">
+        <attr name="homeColorStart" format="reference" />
+        <attr name="awayColorStart" format="reference" />
+        <attr name="homeColorEnd" format="reference" />
+        <attr name="awayColorEnd" format="reference" />
+        <attr name="round" format="dimension" />
+        <attr name="homeNum" format="float"/>
+        <attr name="awayNum" format="float"/>
+        <attr name="textColor" format="dimension"/>
+        <attr name="allTextSize" format="dimension"/>
+        <attr name="allInclination" format="integer"/>
+    </declare-styleable>
+
+</resources>

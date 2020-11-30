@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.ProgressBarView.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.ProgressBarView.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <com.lnloola.progressbarview.ProportionView
+        android:id="@+id/pview"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        />
+
+    <com.lnloola.progressbarview.Pre
+        android:id="@+id/Pre"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        />
+
+    <com.lnloola.progressbarview.MyProgress
+        android:id="@+id/progress_bar_h"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/user_progressbar_bg"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
