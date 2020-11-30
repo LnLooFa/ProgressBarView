@@ -10,3 +10,5 @@
 3.Android 内容显示在进度条中,可显示所占比例
 ```
 
+![image](https://github.com/LnLooFa/ProgressBarView/blob/main/img/20201130155008.png)
+
